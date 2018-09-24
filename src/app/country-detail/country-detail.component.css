@@ -1,0 +1,59 @@
+.colored {
+    background-color: darkturquoise;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.content {
+    color: white;
+}
+
+.content h2 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div {
+    padding: 5px;
+}
+
+ul {
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+li span {
+    font-weight: normal;
+}
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:focus {
+    border: 3px solid #555;
+}
+
+.button {
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: darkturquoise ;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border: none;   
+}

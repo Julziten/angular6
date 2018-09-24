@@ -1,0 +1,24 @@
+<div class="colored" *ngIf="country">
+    <div class="content">
+       <h2>{{country.name}} Details</h2>
+       <ul>
+         <li>
+             Name: <span class="badge">{{country.name}}</span>
+         </li>
+         <li>
+             Capital City: <span class="badge">{{country.capital}}</span>
+         </li>
+         <li>
+             Population: <span class="badge">{{country.population}}</span>
+         </li>
+         <li>
+             Continent: <span class="badge">{{country.continent}}</span>
+         </li>
+         <li>
+             Currency: <span class="badge">{{country.currency}}</span>
+         </li>
+       </ul>
+    </div>
+  </div>
+ 
+  <button (click)="goBack()" class="button">Go back</button>
